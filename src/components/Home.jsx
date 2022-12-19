@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <div name="home" className='flex h-screen w-full bg-gradient-to-b overflow-hidden from-black via-black to-gray-800 '>
-      <div className='max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row '
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="30"
@@ -64,8 +64,8 @@ const Home = () => {
         data-aos-mirror="true"
         data-aos-once="false"
         data-aos-anchor-placement="top-center">
-        <div className='flex flex-1 flex-col justify-center transform-none sm:w-[530px] '>
-          <h1 className='text-4xl sm:text-6xl font-bold tracking-wide text-white'>Hi, I'm Jesus</h1>
+        <div className='flex flex-1 flex-col pt-10 justify-center transform-none sm:w-[400px] '>
+          <h1 className='text-4xl sm:text-6xl font-bold tracking-wide text-white'>Hi, I'm Jesus </h1>
           <h2 className='text-4xl pb-4 sm:text-6xl font-bold tracking-wide sm:w-[530px]  text-cyan-400'><span className='txt-rotate' data-rotate='{"Web Developer"}'><span className='border-r-2 border-solid'>{text}</span></span></h2>
           <div>
             <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-cyan-700 via-cyan-500 to-blue-300 cursor-pointer'>
@@ -78,7 +78,7 @@ const Home = () => {
         </div>
         <div>
           <img src={HeroImage} alt="my_profile"
-            className=' m-auto  pb-28 border-indigo-600 ' />
+            className=' m-auto w-auto h-auto pb-28 border-indigo-600 ' />
         </div>
       </div>
     </div>

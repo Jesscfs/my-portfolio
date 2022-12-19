@@ -11,18 +11,18 @@ const About = () => {
                 <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16 '
                     data-aos="fade-down"
                     data-aos-offset="200"
-                    data-aos-delay="30"
-                    data-aos-duration="1000"
+                    data-aos-delay="40"
+                    data-aos-duration="900"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center">
-                    <div className='flex-1 h-max sm:max-h-max  overflow-hidden'>
+                    <div className='flex-1  sm:max-h-max overflow-hidden'>
                         <img src={bioImg} alt="" />
                     </div>
-                    <div className='flex-1 pt-16 pb-14 lg:pt-0 lg:w-auto flex flex-col justify-center items-center lg:items-start'>
-                        <h1 className='text-[54px] lg:text-[90px] font-bold leading-[120%] tracking-[-0.05em] mb-2 capitalize'>About me</h1>
-                        <p className=' mb-12 px-5 max-w-sm text-justify ' >
+                    <div className='flex-1 pb-14 lg:pt-0 lg:w-auto flex flex-col justify-center items-center lg:items-start'>
+                        <h1 className='text-[54px] lg:text-[70px] font-bold leading-[120%] tracking-[-0.05em] mb-2 capitalize'>About me</h1>
+                        <p className='  px-5 max-w-sm text-justify ' >
                             I am a front-end web developer with a <b>passion</b> in coding, as well as learning different technologies; from building/fixing computers to developing websites.
                             As an artist, I am able to express my creativity on every website I create.
 
