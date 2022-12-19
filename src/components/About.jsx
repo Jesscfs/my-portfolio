@@ -1,6 +1,6 @@
 import React from 'react'
 import "animate.css";
-import bioImg from "../assets/heroImage.jpg";
+import bioImg from "../assets/heroImage.png";
 
 
 const About = () => {
@@ -20,9 +20,9 @@ const About = () => {
                     <div className='flex-1 h-max sm:max-h-max  overflow-hidden'>
                         <img src={bioImg} alt="" />
                     </div>
-                    <div className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto flex flex-col justify-center items-center lg:items-start'>
+                    <div className='flex-1 pt-16 pb-14 lg:pt-0 lg:w-auto flex flex-col justify-center items-center lg:items-start'>
                         <h1 className='text-[54px] lg:text-[90px] font-bold leading-[120%] tracking-[-0.05em] mb-2 capitalize'>About me</h1>
-                        <p className=' mb-12 max-w-sm text-justify ' >
+                        <p className=' mb-12 px-5 max-w-sm text-justify ' >
                             I am a front-end web developer with a <b>passion</b> in coding, as well as learning different technologies; from building/fixing computers to developing websites.
                             As an artist, I am able to express my creativity on every website I create.
 
