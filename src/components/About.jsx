@@ -1,6 +1,6 @@
 import React from 'react'
 import "animate.css";
-import bioImg from "../assets/heroImage.png";
+import bioImg from "../assets/Jess.jpg";
 
 
 const About = () => {
