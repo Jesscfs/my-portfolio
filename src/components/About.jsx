@@ -12,12 +12,12 @@ const About = () => {
                     data-aos="fade-down"
                     data-aos-offset="200"
                     data-aos-delay="40"
-                    data-aos-duration="900"
+                    data-aos-duration="400"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
                     data-aos-once="false"
                     data-aos-anchor-placement="top-center">
-                    <div className='flex-1  sm:max-h-max overflow-hidden'>
+                    <div className='flex-1 sm:h-max h-30px overflow-hidden'>
                         <img src={bioImg} alt="" />
                     </div>
                     <div className='flex-1 pb-14 lg:pt-0 lg:w-auto flex flex-col justify-center items-center lg:items-start'>
