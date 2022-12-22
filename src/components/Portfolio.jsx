@@ -1,6 +1,7 @@
 import React from 'react';
 import supermarket from "../assets/portfolio/supermarket.png"
 import e_commerce from "../assets/portfolio/e-commerce.png";
+import gaming from "../assets/portfolio/gaming.png";
 // import installNode from "../assets/portfolio/installNode.jpg";
 // import navbar from "../assets/portfolio/navbar.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
@@ -18,15 +19,18 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: gaming,
+      name: "Gaming Website",
+      code: "Next.js, HTML, Tailwind",
+      href:"https://master--transcendent-parfait-621312.netlify.app/",
+    },
+    {
+      id: 3,
       src: e_commerce,
       name: "E-commerce Website",
       code: "React, HTML, Sass",
       href: "https://639e3173e97dd369fd989dcd--jocular-mermaid-b10991.netlify.app/"
     },
-    // {
-    //   id: 3,
-    //   src: navbar
-    // },
     // {
     //   id: 4,
     //   src: reactSmooth
